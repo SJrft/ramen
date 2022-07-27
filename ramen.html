@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MY BLOG</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".outer-menu-item").hover(
+          function () {
+            $(this).find(".inner-menu").show();
+          },
+          function () {
+            $(this).find(".inner-menu").hide();
+          }
+        );
+      });
+    </script>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="main-header">
+        <hgroup>
+          <h1 class="master-title">SJ's BLOG</h1>
+          <h2 class="master-description">YM ramen</h2>
+        </hgroup>
+        <nav id="main-navigation">
+          <div class="pull-left">
+            <ul class="outer-menu">
+              <li class="outer-menu-item">
+                <span class="menu-title">|    메뉴    |</span>
+                <ul class="inner-menu">
+                  <li class="inner-menu-item"><a href="index.html">메인 화면</a></li>
+                  <li class="inner-menu-item">
+                    <a href="bag ramen.html">봉지 라면</a>
+                    <a href="cup noodle.html">컵 라면</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="outer-menu-item">
+                <span class="menu-title">더 많은 정보   </span>
+                  <ul class="inner-menu">
+                  <li class="inner-menu-item"><a href="봉지라면과 컵라면의 차이.html">봉지라면과 컵라면의 차이</a>
+                    <a href="진순.html">진라면 순한맛 논란</a>
+                  <li class="inner-menu-item">
+              </li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <div class="search-bar">
+              <form>
+                <input type="text" class="input-search" />
+                <input
+                  type="submit"
+                  class="input-search-submit"
+                  value="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="content">
+        <section id="main-section">
+          <article>
+            <div class="article-header">
+              <h1 class="article-title">라면에 대하여</h1>
+              <p class="article-date">맛있는 라면
+              </p>
+            </div>
+            <div class="article-body">
+              <img src="https://health.chosun.com/site/data/img_dir/2020/09/07/2020090702900_0.jpg" />
+              <p>
+                라면은 국수를 증기로 익힌 뒤 기름에 튀겨 말린 것에 분말 스프를 별도로 첨부한 즉석 식품, 또는 그것을 물에 넣고 끓인 요리를 말한다. 우리나라에서는 별도의 수식어 없이 '라면'이라고만 하면 대부분 인스턴트 라면, 그중에서도 특히 봉지 라면을 지칭하는 경우가 대다수이며, 컵라면은 이름 그대로 컵라면이라 부른다.
+              </p>
+            </div>
+          </article>
+        </section>
+        <aside id="main-aside">
+          <div class="aside-list">
+            <h3>봉지라면</h3>
+            <ul>
+              <li><a href="https://namu.wiki/w/%EC%8B%A0%EB%9D%BC%EB%A9%B4%20%EB%B8%94%EB%9E%99">신라면(블랙)</a></li>
+              <li><a href="https://namu.wiki/w/%EB%B9%84%EB%B9%94%EB%A9%B4">비빔면</a></li>
+              <li><a href="https://namu.wiki/w/%EC%A7%9C%ED%8C%8C%EA%B2%8C%ED%8B%B0">짜파게티</a></li>
+            </ul>
+          </div>
+          <div class="aside-list">
+            <h3>컵라면</h3>
+            <ul>
+              <li><a href="https://namu.wiki/w/%EB%B6%88%EB%8B%AD%EB%B3%B6%EC%9D%8C%EB%A9%B4">붉닭볶음면</a></li>
+              <li><a href="https://namu.wiki/w/%ED%8A%80%EA%B9%80%EC%9A%B0%EB%8F%99%20%ED%81%B0%EC%82%AC%EB%B0%9C%EB%A9%B4#">튀김우동</a></li>
+              <li><a href="https://namu.wiki/w/%EB%86%8D%EC%8B%AC%20%EC%9C%A1%EA%B0%9C%EC%9E%A5">육개장(근본)</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <footer id="main-footer">
+        <a href="https://github.com/SJrft">Created By 이서준</a>
+      </footer>
+    </div>
+  </body>
+</html>

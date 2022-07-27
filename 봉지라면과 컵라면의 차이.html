@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SJ-s-blog</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".outer-menu-item").hover(
+          function () {
+            $(this).find(".inner-menu").show();
+          },
+          function () {
+            $(this).find(".inner-menu").hide();
+          }
+        );
+      });
+    </script>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="main-header">
+        <hgroup>
+          <h1 class="master-title">SJ's BLOG</h1>
+          <h2 class="master-description">YM ramen</h2>
+        </hgroup>
+        <nav id="main-navigation">
+          <div class="pull-left">
+            <ul class="outer-menu">
+              <li class="outer-menu-item">
+                <span class="menu-title">|   메뉴   |</span>
+                <ul class="inner-menu">
+                  <li class="inner-menu-item"><a href="index.html">메인 화면</a></li>
+                  <li class="inner-menu-item">
+                    <a href="ramen.html">라면에 대하여</a>
+                    <a href="bag ramen.html">봉지 라면</a>
+                    <a href="cup noodle.html">컵 라면</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="outer-menu-item">
+                <span class="menu-title">더 많은 정보   </span>
+                  <ul class="inner-menu">
+                  <li class="inner-menu-item"><a href="봉지라면과 컵라면의 차이.html">봉지라면과 컵라면의 차이</a>
+                    <a href="진순.html">진라면 순한맛 논란</a>
+                  <li class="inner-menu-item">
+              </li>
+              <li class="outer-menu-item">
+              </li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <div class="search-bar">
+              <form>
+                <input type="text" class="input-search" />
+                <input
+                  type="submit"
+                  class="input-search-submit"
+                  value="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="content">
+        <section id="main-section">
+          <article>
+            <div class="article-header">
+              <h1 class="article-title">봉지 라면과 컵 라면의 차이</h1>
+            </div>
+            <div class="article-body">
+              <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA1MjZfNDMg/MDAxNTkwNDgxOTc1OTE1.rpezhYUxGHG0X6-dmVwuACnqm7AugH9CUjxEatcVNsAg.C27glH_kXPk5zTORLyjUbU_yjkGDEbmwZXjaq_xGltIg.JPEG.naverschool/%ED%98%B8%EB%A1%9C%EB%A1%9C%EB%A1%9D.jpg?type=w800" />
+              <p>일반적으로 봉지라면의 면발은 밀가루의 함량이 높고 면발이 굵기가 굵은 편이다.</p>
+              <p>컵라면의 경우 봉지라면보다 밀가루의 함량이 적고 대신 감자나 옥수수의 전분의 함량이 높으며, 면발의 굵기 또한 가느다랗다.</p>
+              <p>봉지라면은 폴리프로필렌이라는 무해한 포장재질을 이용하며, 컵라면은 압축된 스티로폼인 ‘발포스티롤’이라는 재질로 포장을 한다.
+                봉지라면의 경우 따로 냄비에 조리하기 때문에 포장자체가 다른 이물질이 섞이지 않고 보관 및 이동하기 위한 기능만을 담당하지만 컵라면의 경우, 포장용기 자체가 조리도구가 되어 뜨거운 물을 담고 있어야 하므로 보관 및 이동상의 편리함 뿐만 아니라 물이 새지 않고, 따뜻함을 유지할 수 있는 등의 추가적인 기능으로 컵라면의 용기는 발포스티롤를 주로 이용하는데 이것은 단열효과가 높아 용기 내부에 열이 밖으로 빠져나가지 않게 하여 조리시간을 단축시켜주는 역할을 한다.<div class=""></div></p> 
+            </div>
+          </article>
+        </section>
+        <aside id="main-aside">
+          <div class="aside-list">
+            <h3>봉지라면</h3>
+            <ul>
+              <li><a href="https://namu.wiki/w/%EC%8B%A0%EB%9D%BC%EB%A9%B4%20%EB%B8%94%EB%9E%99">신라면(블랙)</a></li>
+              <li><a href="https://namu.wiki/w/%EB%B9%84%EB%B9%94%EB%A9%B4">비빔면</a></li>
+              <li><a href="https://namu.wiki/w/%EC%A7%9C%ED%8C%8C%EA%B2%8C%ED%8B%B0">짜파게티</a></li>
+            </ul>
+          </div>
+          <div class="aside-list">
+            <h3>컵라면</h3>
+            <ul>
+              <li><a href="https://namu.wiki/w/%EB%B6%88%EB%8B%AD%EB%B3%B6%EC%9D%8C%EB%A9%B4">붉닭볶음면</a></li>
+              <li><a href="https://namu.wiki/w/%ED%8A%80%EA%B9%80%EC%9A%B0%EB%8F%99%20%ED%81%B0%EC%82%AC%EB%B0%9C%EB%A9%B4#">튀김우동</a></li>
+              <li><a href="https://namu.wiki/w/%EB%86%8D%EC%8B%AC%20%EC%9C%A1%EA%B0%9C%EC%9E%A5">육개장(근본)</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <footer id="main-footer">
+        <a href="https://github.com/SJrft">Created By 이서준</a>
+      </footer>
+    </div>
+  </body>
+</html>
